@@ -8,7 +8,7 @@ const Qualification = () => {
         setToggleState(index);
     };
   return (
-    <section className="qualification section">
+    <section className="qualification section" id='qualification'>
         <h2 className="section__title">Qualification</h2>
         <span className="section__subtitle">My personal journey</span>
 
@@ -129,6 +129,24 @@ const Qualification = () => {
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
                         </div>
+                    </div>
+
+                    <div className="qualification__data">
+                    <div></div>
+
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 className="qualification__title">App Development Intern</h3>
+                            <span className="qualification__subtitle">Tech Era IT Consulting Pvt Ltd</span>
+                            <div className="qualification__calendar">
+                                <i className="uil uil-calendar-alt"></i> Aug 2022 – Dec 2022
+                            </div>
+                        </div>
+
+                        
                     </div>
                     
                 </div>
